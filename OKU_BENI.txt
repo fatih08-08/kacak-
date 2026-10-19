@@ -1,0 +1,13 @@
+KACAK - ANDROID APK (AdMob'lu)
+
+1) GitHub'da YENI bir depo ac (ornek: kacak-app).
+2) Bu zip'in icindekileri depoya yukle: Add file > Upload files (klasorleri de surukle).
+   NOT: ".github" klasoru gizli oldugu icin yuklenmeyebilir. Yuklenmediyse:
+   Add file > Create new file, ismine tam olarak   .github/workflows/apk.yml   yaz,
+   apk.yml.txt dosyasinin icindekini yapistir, Commit.
+3) Depoda "Actions" sekmesine gir. "APK" isimli is kendiliginden baslar (baslamazsa Run workflow).
+4) Yesil tik cikinca ise tikla, en alttaki "Artifacts" kisminden kacak-apk'yi indir, zip'ten cikan app-debug.apk'yi telefona at ve kur.
+   (Telefonda "bilinmeyen kaynaktan kurulum"a izin vermen gerekebilir.)
+
+REKLAM: Su an TEST reklamlari gosterilir. Gercek reklam icin src/ads.js icinde TEST = false yap.
+Kendi reklamina asla tiklama.
